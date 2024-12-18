@@ -1,0 +1,46 @@
+/* 
+  NvAlbum.strings
+  NvAlbum
+
+  Created by 刘东旭 on 2018/12/10.
+  Copyright © 2018年 刘东旭. All rights reserved.
+*/
+
+"album.title" = "Album";
+"album.autoCut"="AutoCut";
+"album.selectContent" = "Select Assets";
+"album.selectImage" = "Select Image";
+"album.selectVideo" = "Select Video";
+"album.select" = "Selected";
+"album.selectNum" = "%ld Assets";
+"album.all" = "All";
+"album.video" = "Video";
+"album.image" = "Image";
+"album.startmake" = "Start Making";
+"album.selectall" = "Select";
+"album.deselectall" = "Deselect";
+"album.Tips" = "Tips";
+"album.Know" = "Know";
+"album.assetFromiCloud" = "asset in iCloud";
+"album.download" = "download?";
+"album.ok" = "OK";
+"album.cancel" = "Cancel";
+"album.loadingIndex" = "downloading the";
+"album.selectAssets" = "Select Assets";
+"album.onlySupportVideo"="Support only video exported";
+"album.onlySupportImage"="Support only image exported";
+"album.videoDurationLower"="VideoClip duration lower";
+"album.next" = "Next";
+"album.duration" = "clip";
+"album.bestDuration" = "best";
+
+"album.imported" = "Imported";
+"album.unsupportHDR" = "Not support hdr video";
+"album.unsupport4K" = "Device does not support 4K editing";
+"album.templateTip" = "Fragments marked same color, recommended to fill in the same asset";
+"album.loading" = "Loading...";
+
+"album.ShowSelected"="Show Selected";
+"album.MaxCountTip"="A maximum of %ld materials can be selected";
+
+"album.prepareModelerror"="Failed to load the model file";

@@ -1,0 +1,46 @@
+/*
+  NvAlbum.strings
+  NvAlbum
+
+  Created by 刘东旭 on 2018/12/10.
+  Copyright © 2018年 刘东旭. All rights reserved.
+*/
+
+"album.title" = "相册列表";
+"album.autoCut"="一键成片";
+"album.selectContent" = "选择内容";
+"album.selectImage" = "选择图片";
+"album.selectVideo" = "选择视频";
+"album.select" = "已选择";
+"album.selectNum" = "已选%ld项";
+"album.all" = "全部";
+"album.video" = "视频";
+"album.image" = "图片";
+"album.startmake" = "开始制作";
+"album.selectall" = "全选";
+"album.deselectall" = "反全选";
+"album.Tips" = "提示";
+"album.Know" = "知道了";
+"album.assetFromiCloud" = "资源在iCloud";
+"album.download" = "是否要开始下载";
+"album.ok" = "确定";
+"album.cancel" = "取消";
+"album.loadingIndex" = "正在下载";
+"album.selectAssets" = "素材选择";
+"album.onlySupportVideo"="仅支持视频导入";
+"album.onlySupportImage"="仅支持图片导入";
+"album.videoDurationLower"="视频片段过短";
+"album.next" = "下一步";
+"album.duration" = "片段";
+"album.bestDuration" = "最优";
+
+"album.imported" = "已导入";
+"album.unsupportHDR" = "暂不支持hdr素材编辑";
+"album.unsupport4K" = "设备暂不支持4K素材编辑";
+"album.templateTip" = "标记相同的颜色片段将自动填入相同的内容";
+"album.loading" = "加载中...";
+
+"album.ShowSelected"="显示所选";
+"album.MaxCountTip"="最多选择%ld个素材";
+
+"album.prepareModelerror"="加载模型文件失败";

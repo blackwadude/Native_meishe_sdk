@@ -1,0 +1,91 @@
+/* 
+  NvVideoEditor.strings
+  NvVideoEditor
+
+  Created by chengww on 2022/2/9.
+  
+*/
+
+"cancel"="取消";
+"Done"="确定";
+"confirm"="确认";
+"AddAudio"="添加音频";
+"AllAudio"="音乐";
+"Record"="录音";
+"closeVolume"="关闭原声";
+"onVolume"="开启原声";
+"Track at least one source material"="轨道至少保留一个素材";
+"add audio failure" = "添加音频失败";
+"Current position is indivisible"="当前位置不可分割";
+"Load clip error"="加载片段错误";
+"freeze-frame time error"="定格时间错误";
+"Unusable space"="无可用空间";
+"Nonsupport Upend" = "网络视频不支持倒放";
+"Nonsupport Static Frame" = "网络视频不支持定格";
+"Loading"="加载中...";
+"load data error"="加载数据失败";
+
+"Transition"="转场";
+"TransitionDuration"="转场时间";
+"Transition-2D"="2D";
+"Transition-3D"="3D";
+"Transition-Duration"="时场过短不能添加转场";
+"ApplyAll"="应用到全部";
+"PIPTrackLimit"="画中画轨道数已达上限";
+"No All Material"="暂无可用素材";
+"Network Error"="网络错误，请重新刷新";
+"Reset"="重置";
+
+
+"Edit"="编辑";
+"Effect"="特效";
+"PIP"="画中画";
+"Ratio"="比例";
+
+"AddEffect"="新增特效";
+"AddRecording"="录音";
+
+"AddPIP"="新增画中画";
+"KeepAudioPitch"="变速变调";
+"Normal speed"="变速";
+"Origin"="原始";
+"Split"="分割";
+"Speed"="变速";
+"Load clip error"="加载片段错误";
+"Volume"="音量";
+"Copy"="复制";
+"ReplaceEffect"="替换特效";
+"VoiceFx"="变声";
+"Animation"="动画";
+"AudioFx"="音效";
+"Rotation"="旋转";
+"Crop"="裁剪";
+
+"Enter Animation"="入场动画";
+"Out Animation"="出场动画";
+"Loop Animation"="循环动画";
+"noAnimation"="无";
+
+"LongPressRecording"="长按录音";
+"AudioTransitions"="音频转场";
+"Free"="自由";
+"Rotation"="角度";
+
+"Original"="原声";
+"Female voice"="女声";
+"Hall"="礼堂";
+"Reverb"="混响";
+"Wahwah"="电子";
+"Male Voice"="男声";
+"Cartoon"="卡通";
+"Echo"="回声";
+"Monster"="怪兽";
+
+"Fade in duration"="淡入";
+"Fade out duration"="淡出";
+"Unusable space"="无可用空间";
+
+"Adding effects failed"="添加特效失败";
+
+"delete"="删除";
+"replace"="替换";

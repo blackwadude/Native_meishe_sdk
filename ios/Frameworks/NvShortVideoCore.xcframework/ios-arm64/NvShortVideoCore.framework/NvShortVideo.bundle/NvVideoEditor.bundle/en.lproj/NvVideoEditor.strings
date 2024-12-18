@@ -1,0 +1,92 @@
+/* 
+  NvVideoEditor.strings
+  NvVideoEditor
+
+  Created by chengww on 2022/2/9.
+  
+*/
+
+"cancel"="Cancel";
+"confirm"="Confirm";
+"Done"="Done";
+"AddAudio"="Add Audio";
+"AllAudio"="Music";
+"Record"="Record";
+"closeVolume"="Off";
+"onVolume"="On";
+"Track at least one source material"="At least one clip on tracks can edit";
+"Current position is indivisible"="Current position is indivisible";
+"add audio failure" = "add audio clip failed";
+"Nonsupport Static Frame" = "Network videos cannot be freeze";
+"Load clip error"="Load clip error";
+"freeze-frame time error"="freeze-frame time error";
+"unSupportMatting" = "The version of sdk unsupport background split fx";
+"Matting After Alert" = "Cannot be matting while the last task is incompleted";
+"Unusable space"="The space is too short to create track";
+"Loading"="Loading...";
+"load data error"="Failed to load data";
+
+"Transition"="Transition";
+"TransitionDuration"="duration";
+"Transition-2D"="2D";
+"Transition-3D"="3D";
+"Transition-Duration"="The minimum transition time is 0.2 seconds";
+"ApplyAll"="Apply All";
+"PIPTrackLimit"="The number of tracks in the picture has reached its limit";
+"No All Material"="You haven't any available material yet";
+"Network Error"="Please check your network, and refresh again";
+"Reset"="Reset";
+
+"Edit"="Edit";
+"Effect"="Effect";
+"PIP"="PIP";
+"Ratio"="Ratio";
+
+"AddEffect"="Add Effect";
+"AddRecording"="Recording";
+
+"Origin"="Origin";
+"Split"="Split";
+"Speed"="Speed";
+"Load clip error"="Load clip error";
+"Volume"="Volume";
+"Copy"="Copy";
+"ReplaceEffect"="Replace";
+"VoiceFx"="VoiceFx";
+"Animation"="Animation";
+"AudioFx"="AudioFx";
+"Rotation"="Rotation";
+"Crop"="Crop";
+
+"Enter Animation"="Enter Animation";
+"Out Animation"="Out Animation";
+"Loop Animation"="Loop Animation";
+"noAnimation"="noAnimation";
+
+"LongPressRecording"="LongPressRecording";
+"AudioTransitions"="AudioTransitions";
+"Fade in duration"="Fade in";
+"Fade out duration"="Fade out";
+"Free"="Free";
+"Rotation"="Rotation";
+
+"AddPIP"="Add PIP";
+"KeepAudioPitch"="Keep Pitch";
+"Normal speed"="Speed";
+
+"Original"="Original";
+"Female voice"="Female";
+"Hall"="Hall";
+"Reverb"="Reverb";
+"Wahwah"="Wahwah";
+"Male Voice"="Male";
+"Cartoon"="Cartoon";
+"Echo"="Echo";
+"Monster"="Monster";
+
+"Unusable space"="no available space";
+
+"Adding effects failed"="Adding effects failed";
+
+"delete"="Delete";
+"replace"="Replace";

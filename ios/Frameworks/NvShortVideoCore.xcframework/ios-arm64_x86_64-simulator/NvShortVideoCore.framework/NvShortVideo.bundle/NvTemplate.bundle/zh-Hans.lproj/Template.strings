@@ -1,0 +1,46 @@
+/* 
+  Template.strings
+  MYVideo
+
+  Created by chengww on 2021/4/15.
+  Copyright © 2021 MEISHE. All rights reserved.
+*/
+
+"MeiShe"="美摄原创";
+"cancel"="取消";
+"confirm"="确认";
+"Apply"="去使用";
+"Upending"="正在倒放";
+"Upend error" = "倒放失败";
+"Template Downloading" = "模板下载中";
+"Material installing"="素材安装中";
+"Material installation failed"="素材安装失败";
+"Compile failed"="导出失败";
+"TemplateLoading"="加载模板中...";
+
+"Template_List_NoData"="暂无模板内容";
+"Template_AddMedia"="添加素材";
+"Template_Templates"="模版";
+"Template_Application_Failure"="应用失败";
+"Template_Use_Template"="用作模版";
+"Template_Replace_Clip"="替换为自己的片段";
+"Template_ReplaceMedia"="替换素材";
+"Template_Edit_Clip"="编辑片段";
+
+"Template_autoCut"="一键成片";
+"Template_Unlimited_UnlimitedDuration"="不限时长";
+"Template_Unlimited_UnlimitedClip"="不限数量";
+"Template_Unlimited_AddClip"="添加你自己的片段";
+"Template_Network_Error"="出错了，请重试";
+"Template_Network_RetryTitle"="没有网络连接,轻按重试";
+"Template_Network_RetryDescription"="连接到互联网，然后再试一次";
+"Template_Compile_Progress"="保存视频...";
+"Template_AutoCut_ParsingFailure"="当前无匹配模版，请重新选择相册内容";
+"Template_DownloadFailure"="下载失败";
+"Template_AutoCut_ClearContent"="模版的更改内容将被清除";
+
+"Template_Preview_Duration"="时长";
+"Template_Preview_Clip"="片段";
+"Template_Preview_Use"="使用量";
+"Template_EditCaption_Done"="完成";
+"Template_prepareModelerror"="加载模型文件失败";

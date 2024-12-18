@@ -1,0 +1,46 @@
+/* 
+  Template.strings
+  MYVideo
+
+  Created by chengww on 2021/4/15.
+  Copyright © 2021 MEISHE. All rights reserved.
+*/
+
+"MeiShe"="The Creator of Meishe";
+"cancel"="Cancel";
+"confirm"="Confirm";
+"Apply"="Apply";
+"Upending"="The asset is Upending";
+"Upend error" = "Upend error";
+"Template Downloading" = "Template Downloading";
+"Material installing"="Material installing";
+"Material installation failed"="Material installation failed";
+"Compile failed"="Compile failed";
+"TemplateLoading"="loading template...";
+
+"Template_List_NoData"="No template data display";
+"Template_AddMedia"="Add media";
+"Template_Templates"="Templates";
+"Template_Application_Failure"="Application Failure";
+"Template_Use_Template"="Use as template";
+"Template_Replace_Clip"="Replace all the clips with your own";
+"Template_ReplaceMedia"="Replace media";
+"Template_Edit_Clip"="Editing media";
+
+"Template_autoCut"="AutoCut";
+"Template_Unlimited_UnlimitedDuration"="Unlimited Duration";
+"Template_Unlimited_UnlimitedClip"="Unlimited Clip";
+"Template_Unlimited_AddClip"="Add the clips with your own";
+"Template_Network_Error"="Error, please try again";
+"Template_Network_RetryTitle"="No internet connection. Tap to retry.";
+"Template_Network_RetryDescription"="Connect ti the internet and try again.";
+"Template_Compile_Progress"="Saving video…";
+"Template_AutoCut_ParsingFailure"="No matching template is available. Please re-select the album content";
+"Template_DownloadFailure"="Download Failure";
+"Template_AutoCut_ClearContent"="Changes to the template will be cleared";
+
+"Template_Preview_Duration"="Duration";
+"Template_Preview_Clip"="Clip";
+"Template_Preview_Use"="Use";
+"Template_EditCaption_Done"="Done";
+"Template_prepareModelerror"="Failed to load the model file";

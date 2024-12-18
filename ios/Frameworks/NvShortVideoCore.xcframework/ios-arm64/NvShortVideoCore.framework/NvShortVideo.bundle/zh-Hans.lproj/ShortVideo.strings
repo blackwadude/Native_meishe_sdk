@@ -1,0 +1,242 @@
+/* 
+  NvShortVideo.strings
+  NvShortVideo
+
+  Created by chengww on 2021/11/2.
+  
+*/
+
+/**----------------------------------------------------------拍摄 capture----------------------------------------------- */
+"capture_item_speed" = "快慢速";
+"capture_item_filter" = "滤镜";
+"capture_item_beautify" = "美颜";
+"capture_item_makeup" = "美妆";
+"capture_item_countdown" = "倒计时";
+"capture_item_prop" = "道具";
+"capture_item_original" = "原声";
+"capture_item_flash" = "闪光灯";
+
+"capture_picture" = "拍照";
+"capture_template" = "模版";
+"capture_mov" = "视频";
+"capture_smart" = "快拍";
+"capture_loading_left"    = "左滑加载";
+"capture_loading_leftLoading"    = "正在加载";
+"capture_loading_leftOver"    = "加载完毕";
+
+//------------------音乐 music
+"capture_music_singer" = "未知歌手";
+"capture_music_library" = "媒体库权限被禁止";
+"capture_music_tip" = "您可以从音乐APP中下载音乐，或通过iTunes将电脑上的歌曲同步到您的设备上";
+"capture_music_detail" = "请检查本地音乐文件目录";
+
+//-----------拍摄相册 capture album---------
+"capture_album_cancel" = "取消";
+"capture_album_failed" = "生成失败";
+"capture_album_confirm" = "确定";
+"capture_album_unauth" = "未授权访问系统相册";
+"capture_album_auth" = "允许访问相册";
+
+//-----------拍摄美颜 capture beauty---------
+"capture_beauty"   = "美肤";
+"capture_beauty_shape"   = "美型";
+"capture_beauty_micro_shape"   = "微整型";
+"capture_beauty_adjust"   = "调节";
+"capture_item_strength" = "强度";
+"capture_item_radius" = "半径";
+
+
+//-----------拍摄美肤 capture beauty---------
+"capture_beauty_smooth"   = "磨皮";
+"capture_beauty_back"   = "返回";
+"capture_beauty_standard"   = "标准磨皮";
+"capture_beauty_shiny"   = "水光磨皮";
+"capture_beauty_natural"   = "自然磨皮";
+"capture_beauty_luxurious"   = "质感磨皮";
+"capture_beauty_skincolor"  = "肤色";
+"capture_beauty_skincolor1" = "冷白";
+"capture_beauty_skincolor2" = "粉白";
+"capture_beauty_skincolor3" = "暖白";
+"capture_beauty_skincolor4" = "美黑";
+"capture_beauty_whiten"  = "美白";
+"capture_beauty_whitenA"  = "美白A";
+"capture_beauty_whitenB"  = "美白B";
+"capture_beauty_oiliness"  = "去油光";
+"capture_beauty_rosy"   = "红润";
+
+//-----------拍摄美型 capture Reshape---------
+"capture_beauty_narrow"    = "窄脸";
+"capture_beauty_lowerJaw"   = "小脸";
+"capture_beauty_lessen"  = "廋脸";
+"capture_beauty_forehead"   = "额头";
+"capture_beauty_chin" = "下巴";
+"capture_beauty_eyesSize"    = "大眼";
+"capture_beauty_eyesConer"    = "眼角";
+"capture_beauty_noseAla"   = "瘦鼻";
+"capture_beauty_noseLength"  = "长鼻";
+"capture_beauty_lipHeight"   = "嘴型";
+"capture_beauty_lipWidth" = "嘴角";
+
+//----------拍摄微整形 capture MicroShape----------
+"capture_beauty_head"    = "缩头";
+"capture_beauty_eyesBrighten"    = "亮眼";
+"capture_beauty_nasolabialFolds"   = "法令纹";
+"capture_beauty_blackCircle" = "黑眼圈";
+"capture_beauty_whitenTeeth"    = "美牙";
+"capture_beauty_cheekBones"    = "颧骨";
+"capture_beauty_chinLength"   = "下颚";
+"capture_beauty_temple"  = "太阳穴";
+"capture_beauty_eyesConer"    = "眼角";
+"capture_beauty_eyesDistance"    = "眼距";
+"capture_beauty_philtrum"    = "人中";
+"capture_beauty_noseRoot"    = "鼻梁";
+"capture_beauty_eyebrowSize"    = "眉粗细";
+"capture_beauty_eyebrowHeight"    = "眉上下";
+"capture_beauty_eyebrowDistance"    = "眉间距";
+"capture_beauty_eyebrowSlant"    = "眉角度";
+"capture_beauty_lowerEyelid"    = "眼弧度";
+"capture_beauty_eyesLength"    = "眼宽度";
+"capture_beauty_eyesEnlarge"    = "眼高度";
+"capture_beauty_eyesHeight"    = "眼上下";
+"capture_beauty_noseTip"    = "鼻头";
+
+//----------拍摄调节 capture Adjust----------
+"capture_beauty_tone"     = "校色";
+"capture_beauty_firm"    = "锐度";
+"capture_beauty_articulation"    = "清晰度";
+
+//-----------拍摄美妆 makeup----------
+"capture_makeup_makeup"    = "妆容";
+"capture_makeup_filter"    = "滤镜";
+"capture_asset_original"    = "原图";
+
+/**-----------权限---------- */
+"privilege_capture"    = "拍摄";
+"privilege_device"     = "请允许访问你的相机，麦克风和相册，以便在应用中使用拍摄功能";
+"privilege_camera"     = "启用相机访问权限";
+"privilege_microphone" = "启用麦克风访问权限";
+"privilege_photo"      = "启用相册访问权限";
+
+//------------------提示框 alert
+"capture_alert_msg" = "切换拍摄模式将清除当前所拍摄内容，确定继续？";
+"capture_alert_cancel" = "取消";
+"capture_alert_confirm" = "确定";
+"capture_alert_deleteMsg" = "丢弃最后一个片段?";
+"capture_alert_discard"    = "丢弃";
+"capture_alert_start_over" = "重新开始";
+"capture_alert_continue" = "继续";
+"capture_alert_keep"    = "保留";
+
+/**---------------------------------------------合拍 PIP-------------------------------------------*/
+"capture_alert_home_closeTitle" = "丢弃编辑吗?";
+"capture_alert_home_closeDescription" = "这将删除你的视频中全部编辑效果";
+"capture_dual_type_tip" = "请选择您的合拍版式";
+"capture_switch" = "交换";
+"capture_centered" = "居中";
+"capture_original" = "平铺";
+"capture_item_pip" = "画中画";
+
+/**----------------------------------------------编辑 edit------------------------------------------------------- */
+"edit_item_effect"    = "特效";
+"edit_item_voice"    = "音效";
+"edit_item_record"    = "配音";
+"edit_item_filter"    = "滤镜";
+"edit_item_sticker"    = "贴纸";
+"edit_item_caption"    = "文字";
+"edit_item_edit"      = "编辑";
+"nv_edit_item_recognition_caption"    = "自动字幕";
+"nv_edit_recognition_caption_progress" = "字幕识别中 … %.0f%%";
+"nv_edit_recognition_caption_tip" = "清晰人声可以提高识别准确率";
+"nv_edit_recognition_caption_error_title" = "字幕识别失败";
+"nv_edit_recognition_caption_error_tip" = "字幕识别失败，请重试";
+"nv_edit_recognition_caption_cancel" = "取消";
+"nv_edit_recognition_caption_retry" = "重试";
+"nv_edit_recognition_caption_exit" = "退出";
+"nv_edit_recognition_caption_alert" = "字幕识别即将完成，\n确认退出吗？";
+"nv_edit_recognition_caption_delete_alert" = "确认删除所有字幕吗？";
+"nv_edit_recognition_caption_exit_alert" = "退出将丢失字幕，\n确认退出吗？";
+"nv_edit_recognition_style_panel_title" = "字幕样式";
+"nv_edit_recognition_edit_panel_title" = "字幕编辑";
+
+"nv_edit_recognition_empty_title" = "未检测到可识别内容，请更换素材";
+"nv_edit_recognition_empty_bt" = "退出字幕识别";
+"nv_edit_recognition_edit_panel_alert_title" = "退出将丢失修改内容\n确认退出吗？";
+"nv_edit_recognition_alert_cancel" = "取消";
+"nv_edit_recognition_alert_done" = "确定";
+"nv_edit_recognition_bubble_edit" = "编辑字幕";
+"nv_edit_recognition_bubble_delete" = "删除";
+
+"nv_edit_recognition_caption_alert_exit" = "退出";
+"nv_edit_recognition_caption_alert_contine" = "继续识别";
+
+"edit_voice_female"    = "女声";
+"edit_voice_fastCartoon"   = "礼堂";
+"edit_voice_reverb"    = "混响";
+"edit_voice_wahwah"    = "电子";
+"edit_voice_male"    = "男声";
+"edit_voice_cartoon"    = "卡通";
+"edit_voice_echo"    = "回声";
+"edit_voice_monster"    = "怪兽";
+
+"edit_change_delete" = "删除";
+"loading..." = "加载中...";
+"edit_item_timeline_delete_clip"="轨道至少保留一个素材";
+
+"edit_duration" = "时长";
+"edit_effect_duration" = "设置时长";
+"edit_effect_edit" = "编辑";
+"edit_effect_delete" = "删除";
+"edit_effect_time_item" = "时间";
+"edit_effect_text_duration_tip" = "所选文本将播放%@";
+"edit_effect_sticker_duration_tip" = "所选贴纸将播放%@";
+"edit_effect_repeatedly" = "反复";
+"edit_effect_slow" = "慢动作";
+
+"music_menu_add" = "添加音乐";
+"music_item_foryou" = "在线音乐";
+"music_item_my" = "我的音乐";
+"music_cut_title" = "音乐";
+"music_cut_tip" = "选择 %d 秒";
+"music_cut_less_tip" = "该音频最多可选区 %d 秒";
+"music_cut_loop" = "循环播放";
+"music_search_placeholder_text" = "搜索歌曲，艺术家，播客";
+"music_search_empty_text" = "没有找到”%@”的结果";
+
+"music_item_original" = "原声";
+"music_item_sound" = "音乐";
+"music_item_volume"    = "音量";
+
+"edit_caption_finish" = "完成";
+
+"audio_volume_title_original" = "原声";
+"audio_volume_title_added" = "音乐";
+"audio_volume_title_record" = "录音";
+"audio_audiofx_record" = "录音";
+"audio_audiofx_start_recording" = "开始录音";
+"edit_record_auth"    = "录音权限被禁止";
+"edit_record_duration_less" = "录音时间太短";
+
+"edit_remove_time_effect_tip" = "打开编辑器会删除特效，要继续吗?";
+
+"edit_comple_info" = "已保存到相册";
+"edit_comple_process" = "合成中…";
+"edit_comple_error" = "合成出错，请重试";
+
+"edit_caption_font_default" = "默认";
+
+"edit_recognition_caption_default" = "默认";
+
+/*-----------edit view alert---------- */
+"edit_alert_discard_draft"    = "丢弃草稿";
+"edit_alert_Abandon_modification" = "放弃修改";
+
+"edit_alert_quit"    = "退出此次编辑？";
+"edit_alert_cancel" = "取消";
+"edit_alert_confirm" = "确定";
+"edit_alert_continue" = "继续";
+
+//-----------选择封面页面  Select cover page---------
+"edit_cover_Title"    = "封面";
+"edit_album_finish"    = "完成";
+
+"resource_acquisition_failure" = "获取资源失败";

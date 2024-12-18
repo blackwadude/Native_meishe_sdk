@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.meishe.nvshortvideo">
+    <application>
+        <activity
+            android:name="com.meishe.nvshortvideo.PublishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+    </application>
+</manifest>

@@ -1,0 +1,248 @@
+/* 
+  NvShortVideo.strings
+  NvShortVideo
+
+  Created by chengww on 2021/11/2.
+  
+*/
+
+/**----------------------------------------------------------拍摄 capture----------------------------------------------- */
+"capture_item_speed" = "Speed";
+"capture_item_filter" = "Filter";
+"capture_item_beautify" = "Beautify";
+"capture_item_makeup" = "Makeup";
+"capture_item_countdown" = "Timer";
+"capture_item_prop" = "AR Effects";
+"capture_item_original" = "Original";
+"capture_item_flash" = "Flash";
+
+"capture_picture" = "Photo";
+"capture_template" = "Template";
+"capture_mov" = "Video";
+"capture_smart" = "Story";
+"capture_loading_left"    = "left load";
+"capture_loading_leftLoading"    = "loading";
+"capture_loading_leftOver"    = "End of load";
+
+//------------------音乐 music
+"capture_music_singer" = "unknown singer";
+"capture_music_library" = "the media library permission is disabled";
+"capture_music_tip" = "you can download music from the music APP or sync songs from your computer to your device through iTunes";
+"capture_music_detail" = "check the local music file directory";
+
+//-----------拍摄相册 capture album---------
+"capture_album_cancel" = "cancel";
+"capture_album_failed" = "compile failed";
+"capture_album_confirm" = "confirm";
+"capture_album_unauth" = "unauthorized access to system album";
+"capture_album_auth" = "allow access to albums";
+
+//-----------拍摄美颜 capture beauty---------
+"capture_beauty"   = "Beauty";
+"capture_beauty_shape"   = "Reshape";
+"capture_beauty_micro_shape"   = "MicroShape";
+"capture_beauty_adjust"   = "Adjust";
+"capture_item_strength" = "Strength";
+"capture_item_radius" = "Radius";
+
+//-----------拍摄美肤 capture beauty---------
+"capture_beauty_smooth"   = "Smooth";
+"capture_beauty_back"   = "Back";
+"capture_beauty_standard"   = "Standard";
+"capture_beauty_shiny"   = "Shiny";
+"capture_beauty_natural"   = "Natural";
+"capture_beauty_luxurious"   = "Luxurious";
+"capture_beauty_skincolor"  = "Skincolor";
+"capture_beauty_skincolor1" = "CoolWhite";
+"capture_beauty_skincolor2" = "PinkyWhite";
+"capture_beauty_skincolor3" = "WarmWhite";
+"capture_beauty_skincolor4" = "Tanning";
+"capture_beauty_whiten"  = "Whiten";
+"capture_beauty_whitenA"  = "WhitenA";
+"capture_beauty_whitenB"  = "WhitenB";
+"capture_beauty_oiliness"  = "Oiliness";
+"capture_beauty_rosy"   = "Rosy";
+
+//-----------拍摄美型 capture Reshape---------
+"capture_beauty_narrow"    = "Narrow";
+"capture_beauty_lowerJaw"   = "Lower Jaw";
+"capture_beauty_lessen"  = "Lessen";
+"capture_beauty_forehead"   = "Forehead";
+"capture_beauty_chin" = "Chin";
+"capture_beauty_eyesSize"    = "Eyes Size";
+"capture_beauty_eyesConer"    = "Eyes Coner";
+"capture_beauty_noseAla"   = "Nose Ala";
+"capture_beauty_noseLength"  = "Nose Length";
+"capture_beauty_lipHeight"   = "Lip Height";
+"capture_beauty_lipWidth" = "Lip Width";
+
+//----------拍摄微整形 capture MicroShape----------
+"capture_beauty_head"    = "Head";
+"capture_beauty_eyesBrighten"    = "Eyes Brighten";
+"capture_beauty_nasolabialFolds"   = "Nasolabial Folds";
+"capture_beauty_blackCircle" = "Black Circle";
+"capture_beauty_whitenTeeth"    = "Whiten Teeth";
+"capture_beauty_cheekBones"    = "Cheek- bones";
+"capture_beauty_chinLength"   = "Chin Length";
+"capture_beauty_temple"  = "Temple";
+"capture_beauty_eyesConer"    = "Eyes Coner";
+"capture_beauty_eyesDistance"    = "Eyes Distance";
+"capture_beauty_philtrum"    = "Philtrum";
+"capture_beauty_noseRoot"    = "Nose Root";
+"capture_beauty_eyebrowSize"    = "Eyebrow Size";
+"capture_beauty_eyebrowHeight"    = "Eyebrow Height";
+"capture_beauty_eyebrowDistance"    = "Eyebrow Distance";
+"capture_beauty_eyebrowSlant"    = "Eyebrow Slant";
+"capture_beauty_lowerEyelid"    = "Lower Eyelid";
+"capture_beauty_eyesLength"    = "Eyes Length";
+"capture_beauty_eyesEnlarge"    = "Eyes Enlarge";
+"capture_beauty_eyesHeight"    = "Eyes Height";
+"capture_beauty_noseTip"    = "Nose Tip";
+
+//----------拍摄调节 capture Adjust----------
+"capture_beauty_tone"     = "Tone";
+"capture_beauty_firm"    = "Firm";
+"capture_beauty_articulation"    = "Articulation";
+
+//-----------拍摄美妆 makeup----------
+"capture_makeup_makeup"    = "Makeup";
+"capture_makeup_filter"    = "Filter";
+"capture_asset_original"    = "Original";
+
+//-----------权限 privilege----------
+"privilege_capture"    = "capture";
+"privilege_device"     = "Please allow access to your camera, microphone and album in order to use the shooting feature in the app";
+"privilege_camera"     = "camera";
+"privilege_microphone" = "microphone";
+"privilege_photo"      = "photo";
+
+//------------------提示框 alert
+"capture_alert_msg" = "switching the shooting mode will clear the current shooting. Are you sure to continue?";
+"capture_alert_cancel" = "Cancel";
+"capture_alert_confirm" = "Confirm";
+"capture_alert_deleteMsg" = "Discard the last clip？";
+"capture_alert_discard"    = "Discard";
+"capture_alert_start_over" = "Start over";
+"capture_alert_continue" = "Continue";
+"capture_alert_keep"    = "Keep";
+
+/**---------------------------------------------合拍 PIP-------------------------------------------*/
+"capture_alert_home_closeTitle" = "Discard edits？";
+"capture_alert_home_closeDescription" = "This will remove all edits applied to your video. ";
+"capture_dual_type_tip" = "Layout settings";
+"capture_switch" = "Switch";
+"capture_centered" = "Centered";
+"capture_original" = "Original";
+"capture_item_pip" = "PIP";
+
+/**----------------------------------------------编辑 edit------------------------------------------------------- */
+"edit_item_effect"    = "Effect";
+"edit_item_voice"    = "Voice";
+"edit_item_filter"    = "Filter";
+"edit_item_sticker"    = "Sticker";
+"edit_item_caption"    = "Text";
+"edit_item_edit"      = "Edit";
+"edit_item_record"    = "Dub";
+"nv_edit_item_recognition_caption"    = "Caption";
+"nv_edit_item_recognition_caption"    = "Captions";
+"nv_edit_recognition_caption_progress" = "Captions recognition … %.0f%%";
+"nv_edit_recognition_caption_tip" = "Clear voice can improve recognition accuracy.";
+"nv_edit_recognition_caption_error_title" = "Couldn’t generate captions";
+"nv_edit_recognition_caption_error_tip" = "Your captions couldn’t be processed";
+"nv_edit_recognition_caption_cancel" = "Cancel";
+"nv_edit_recognition_caption_retry" = "Retry";
+"nv_edit_recognition_caption_exit" = "Exit";
+"nv_edit_recognition_caption_alert" = "Caption recognition is processing.\nAre you sure you want to exit?";
+"nv_edit_recognition_caption_alert_contine" = "Continue";
+"nv_edit_recognition_caption_alert_exit" = "Cancel";
+"nv_edit_recognition_caption_delete_alert" = "Are you sure you want to delete all captions?";
+"nv_edit_recognition_caption_delete_alert_done" = "Continue";
+"nv_edit_recognition_caption_exit_alert" = "Exiting will lose all captions.\nAre you sure you want to exit?";
+"nv_edit_recognition_caption_exit_done" = "Cancel";
+"nv_edit_recognition_caption_exit_cancel" = "Continue";
+"nv_edit_recognition_style_panel_title" = "Caption Style";
+"nv_edit_recognition_edit_panel_title" = "Editing caption";
+"nv_edit_recognition_bubble_edit" = "Edit";
+"nv_edit_recognition_bubble_delete" = "Delete";
+
+"nv_edit_recognition_caption_alert_exit" = "Cancel";
+"nv_edit_recognition_caption_alert_contine" = "Continue";
+
+"nv_edit_recognition_alert_cancel" = "Cancel";
+"nv_edit_recognition_alert_done" = "Confirm";
+
+"nv_edit_recognition_empty_title" = "No recognizable content detected.\nPlease replace the material.";
+"nv_edit_recognition_empty_bt" = "Exit  recognition";
+"nv_edit_recognition_edit_panel_alert_title" = "Exiting will lose modified content.\nAre you sure you want to exit?";
+
+"edit_voice_female"    = "Female";
+"edit_voice_fastCartoon"   = "Hall";
+"edit_voice_reverb"    = "Rever-beration";
+"edit_voice_wahwah"    = "Electronic";
+"edit_voice_male"    = "Male";
+"edit_voice_cartoon"    = "Cartoon";
+"edit_voice_echo"    = "Echo";
+"edit_voice_monster"    = "Monster";
+
+"edit_change_delete" = "delete";
+"loading..." = "loading...";
+"edit_item_timeline_delete_clip"="Tracks retain at least one material";
+
+"edit_duration" = "Duration";
+"edit_effect_duration" = "Duration";
+"edit_effect_edit" = "Edit";
+"edit_effect_delete" = "Delete";
+"edit_effect_time_item" = "Time";
+"edit_effect_text_duration_tip" = "The selected text will play %@";
+"edit_effect_sticker_duration_tip" = "The selected sticker will play %@";
+"edit_effect_repeatedly" = "Repeatedly";
+"edit_effect_slow" = "Slow";
+
+"music_menu_add" = "Add Sound";
+"music_item_foryou" = "For You";
+"music_item_my" = "My Music";
+"music_cut_title" = "Songs";
+"music_cut_tip" = "It can be selected up to %d seconds";
+"music_cut_less_tip" = "The audio can be selected up to %d seconds";
+"music_cut_loop" = "Loop";
+"music_search_placeholder_text" = "Search songs, artists, podcasts";
+"music_search_empty_text" = "No result found for ”%@”";
+
+"music_item_original" = "Original";
+"music_item_sound" = "Sound";
+"music_item_volume" = "Volume";
+
+"edit_caption_finish" = "Done";
+
+"audio_volume_title_original" = "Original Sound";
+"audio_volume_title_added" = "Added Sound";
+"audio_volume_title_record" = "Record";
+"audio_audiofx_record" = "Recording";
+"audio_audiofx_start_recording" = "Start Recording";
+"edit_record_auth"    = "the recording permission is prohibited";
+"edit_record_duration_less" = "The recording time is too short";
+
+"edit_remove_time_effect_tip" = "Opening the editor will remove the special effects, do you want to continue?";
+
+"edit_comple_info" = "Video saved to library！";
+"edit_comple_process" = "Saving video…";
+"edit_comple_error" = "Error saving, please try again";
+
+"edit_caption_font_default" = "Default";
+
+"edit_recognition_caption_default" = "Default";
+
+//----------提示框edit view alert------------
+"edit_alert_discard_draft"    = "Discard";
+"edit_alert_Abandon_modification" = "Abandon modification";
+
+"edit_alert_quit"    = "Exit this edit?";
+"edit_alert_cancel" = "Cancel";
+"edit_alert_confirm" = "Confirm";
+"edit_alert_continue" = "Continue";
+
+//-----------选择封面页面  Select cover page---------
+"edit_cover_Title"    = "Cover";
+"edit_album_finish"    = "Finish";
+
+"resource_acquisition_failure" = "Resource acquisition failure";

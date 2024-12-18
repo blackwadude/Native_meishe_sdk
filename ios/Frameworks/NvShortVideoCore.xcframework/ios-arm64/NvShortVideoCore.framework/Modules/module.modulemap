@@ -1,0 +1,11 @@
+framework module NvShortVideoCore {
+  umbrella header "NvShortVideoCore.h"
+  export *
+
+  module * { export * }
+}
+
+module NvShortVideoCore.Swift {
+  header "NvShortVideoCore-Swift.h"
+  requires objc
+}
