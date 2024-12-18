@@ -143,7 +143,11 @@
 }
 
 - (IBAction)saveBtClicked:(UIButton *)sender {
-    [self jump];
+    if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
+        [self finish:nil];
+    }else{
+        [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
+    }
 }
 
 - (IBAction)compileBtClicked:(UIButton *)sender {
@@ -152,13 +156,13 @@
 
 - (void)jump{
     self.draftInfo = self.textView.text.length > 0 ? self.textView.text : @"";
-    if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
+    // if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
         if (self.delegate && [self.delegate respondsToSelector:@selector(compileBtClickedViewController:)]) {
             [self.delegate compileBtClickedViewController:self];
         }
-    }else{
-        [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
-    }
+    // }else{
+    //     [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
+    // }
 }
 
 - (IBAction)saveCoverClicked:(UIButton *)sender {
@@ -176,6 +180,19 @@
 -(void)viewTap:(UITapGestureRecognizer*)tap{
     if (self.textView.isFirstResponder) {
         [self.textView resignFirstResponder];
+    }
+}
+
+- (void)finish:(NSString *)outputPath{
+    [[NSFileManager defaultManager] removeItemAtPath:outputPath error:nil];
+    if (self.presentingViewController.presentingViewController){
+        [self.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:^{
+            [self->_moduleManager exitVideoEdit:self.projectId];
+        }];
+    }else{
+        [self.navigationController dismissViewControllerAnimated:YES completion:^{
+            [self->_moduleManager exitVideoEdit:self.projectId];
+        }];
     }
 }
 
