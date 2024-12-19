@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fast_slow_speed">Speed</string>
+    <string name="speed_very_slow">Very Slow</string>
+    <string name="speed_slow">Slow</string>
+    <string name="speed_mid">Standard</string>
+    <string name="speed_fast">Fast</string>
+    <string name="speed_very_fast">Very Fast</string>
+
+    <string name="menu_trim_space">change duration</string>
+    <string name="menu_rotate">rotate</string>
+    <string name="menu_speed">speed</string>
+    <string name="delete">delete</string>
+    <string name="sticker_voice">Voice</string>
+    <string name="sticker_normal">Normal</string>
+    <string name="exit_edit_tip">Exit this edit?</string>
+    <string name="edit_confirm">Confirm</string>
+
+    <string name="publish">publish</string>
+    <string name="generating">Generating…</string>
+    <string name="completedTips">Done \n Please view in album</string>
+    <string-array name="compile_video_success_tips">
+        <item>Save path: </item>
+    </string-array>
+
+    <string name="compile_failed_tips">Compile failed,Please check the storage space.</string>
+
+    <string name="trim_edit">edit</string>
+    <string name="caption">caption</string>
+    <string name="edit_function_menu_text">text</string>
+    <string name="sticker">sticker</string>
+    <string name="down_load_effects">effects</string>
+    <string name="filter">filter</string>
+
+    <string name="edit_music_text">music</string>
+    <string name="edit_function_menu_music">audio effect</string>
+    <string name="edit_function_menu_auto_caption">Captions</string>
+    <string name="edit_function_menu_record">Record</string>
+    <string name="no">None</string>
+    <string name="next">Done</string>
+    <string name="selected_cover">Selected Cover</string>
+    <string name="music_record_too_short">The recorded music is too short!</string>
+    <string name="publish_tittle_hint">Create your informative  content.</string>
+    <string name="save_draft">Save Draft</string>
+    <string name="save_to_album">Save video</string>
+    <string name="save_cover">Save cover</string>
+    <string name="save_cover_failed_hint">Save cover failed</string>
+    <string name="save_cover_success_hint">Save cover success</string>
+    <string name="video_saved_library">Video saved to library!</string>
+
+    <string name="save_video_success_hint">Save video success</string>
+    <string name="save_video_failed_hint">Save video failed</string>
+    <string name="cover_edit_title">Cover</string>
+    <string name="edit_caption_indicate_duration">Duration</string>
+    <string name="edit_caption_indicate_edit">Edit</string>
+    <string name="tab_timeline_fx_time">time</string>
+    <string name="timeline_fx_repeat">Repeat</string>
+    <string name="timeline_fx_slow_motion">SLO-MO</string>
+    <string name="toast_least_one_material">The orbit retains at least one material</string>
+    <string name="dialog_delete_time_fx_hit">Opening the editor will remove the special effects, do you want to continue?</string>
+    <string name="dialog_back_edit_cancel_edit_draft">Cancel edit</string>
+    <string name="dialog_back_edit_delete_edit_draft">Delete draft</string>
+
+    <string name="edit_auto_caption_indicate_edit">Edit</string>
+    <string name="edit_auto_caption_indicate_delete">Delete</string>
+</resources>
+
