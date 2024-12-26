@@ -86,7 +86,7 @@
     
     // _placeholderLabel
     UILabel* placeHolderLabel = [[UILabel alloc]init];
-    placeHolderLabel.text = NSLocalizedString(@"Publish_Info", @"");
+    placeHolderLabel.text = NSLocalizedString(@  "Type your video caption here. You can also add hashtags (e.g., #tag1 #tag2) and mention people (@username).", @"");
     placeHolderLabel.numberOfLines = 0;
     placeHolderLabel.textColor = [UIColor lightGrayColor];
     [placeHolderLabel sizeToFit];
@@ -95,9 +95,9 @@
     [self.textView setValue:placeHolderLabel forKey:@"_placeholderLabel"];
     self.textView.text = self.draftInfo;
     
-    [self.compileBt setTitle:NSLocalizedString(@"Save_Video", @"") forState:(UIControlStateNormal)];
-    [self.saveBt setTitle:NSLocalizedString(@"Save_Draft", @"") forState:(UIControlStateNormal)];
-    [self.saveCoverBt setTitle:NSLocalizedString(@"Save_Cover", @"") forState:(UIControlStateNormal)];
+    [self.compileBt setTitle:NSLocalizedString(@"Save Video", @"") forState:(UIControlStateNormal)];
+    [self.saveBt setTitle:NSLocalizedString(@"Save Draft", @"") forState:(UIControlStateNormal)];
+    [self.saveCoverBt setTitle:NSLocalizedString(@"Save Cover", @"") forState:(UIControlStateNormal)];
     
     self.compileBt.layer.cornerRadius = 10;
     self.saveBt.layer.cornerRadius = 10;
@@ -111,7 +111,7 @@
     self.imageView.layer.masksToBounds = YES;
     
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, self.imageView.frame.size.height - 15, self.imageView.frame.size.width, 15)];
-    label.text = NSLocalizedString(@"Select_Cover", @"");
+    label.text = NSLocalizedString(@"Select Cover", @"");
     label.font = [UIFont systemFontOfSize:10];
     label.backgroundColor = [[UIColor alloc]initWithRed:0 green:0 blue:0 alpha:0.7];
     label.textColor = UIColor.whiteColor;
@@ -146,7 +146,7 @@
     if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
         [self finish:nil];
     }else{
-        [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
+        [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save Failed", @"")];
     }
 }
 
@@ -169,9 +169,9 @@
     [_moduleManager saveCover:self.imagePath with:^(BOOL success) {
         dispatch_async(dispatch_get_main_queue(), ^{
             if (success){
-                [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Successful", @"")];
+                [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save Successful", @"")];
             }else{
-                [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
+                [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save Failed", @"")];
             }
         });
     }];
