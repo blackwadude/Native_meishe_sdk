@@ -156,13 +156,13 @@
 
 - (void)jump{
     self.draftInfo = self.textView.text.length > 0 ? self.textView.text : @"";
-    // if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
+    if([_moduleManager saveCurrentDraftWithDraftInfo:self.textView.text]){
         if (self.delegate && [self.delegate respondsToSelector:@selector(compileBtClickedViewController:)]) {
             [self.delegate compileBtClickedViewController:self];
         }
-    // }else{
-    //     [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
-    // }
+    }else{
+        [NvTipToast showInfoWithMessage:NSLocalizedString(@"Save_Failed", @"")];
+    }
 }
 
 - (IBAction)saveCoverClicked:(UIButton *)sender {
