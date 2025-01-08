@@ -93,40 +93,59 @@ public class VideoEditPlugin implements FlutterPlugin, MethodCallHandler, Activi
         }
     }
 
-    @Override
-    public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        mContext = flutterPluginBinding.getApplicationContext();
-        mVideoEditChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_EDIT_CHANNEL);
-        mVideoEditChannel.setMethodCallHandler(this);
-        mVideoEditCallbackChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_EDIT_CALLBACK_CHANNEL);
-        mVideoEditCallbackChannel.setMethodCallHandler(this);
-        mVideoDraftChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_DRAFT_CHANNEL);
-        mVideoDraftChannel.setMethodCallHandler(this);
+ @Override
+public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
+    mContext = flutterPluginBinding.getApplicationContext();
+
+    // Initialize method channels
+    mVideoEditChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_EDIT_CHANNEL);
+    mVideoEditChannel.setMethodCallHandler(this);
+
+    mVideoEditCallbackChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_EDIT_CALLBACK_CHANNEL);
+    mVideoEditCallbackChannel.setMethodCallHandler(this);
+
+    mVideoDraftChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), PluginConstants.VIDEO_DRAFT_CHANNEL);
+    mVideoDraftChannel.setMethodCallHandler(this);
+
+    try {
+        // Set module manager callback
         NvModuleManager.get().setModuleManagerCallback(new NvModuleManagerCallback() {
             @Override
             public void publishWithInfo(Activity activity, boolean needSaveDraft, boolean needSaveCover, boolean needSaveVideo, String videoPath) {
-                if (activity instanceof PublishActivity) {
-                    goPublish(needSaveDraft, needSaveCover, needSaveVideo,videoPath);
-                } else {
+                if (activity != null && activity instanceof PublishActivity) {
+                    goPublish(needSaveDraft, needSaveCover, needSaveVideo, videoPath);
+                } else if (activity != null) {
                     Bundle bundle = new Bundle();
                     bundle.putBoolean("intent_key_can_save_draft", needSaveDraft);
                     bundle.putBoolean("intent_key_can_save_cover", needSaveCover);
                     bundle.putBoolean("intent_key_can_save_video", needSaveVideo);
                     bundle.putString("intent_key_video_path", videoPath);
-                    AppManager.getInstance().jumpActivity(activity,
-                            PublishActivity.class, bundle);
+                    AppManager.getInstance().jumpActivity(activity, PublishActivity.class, bundle);
+                } else {
+                    // Log or handle the case where activity is null
+                    Log.e("VideoEditPlugin", "Activity is null while handling publishWithInfo.");
                 }
             }
-
         });
+
+        // Set draft delete callback
         DraftManager.getInstance().setDraftDeleteCallBack(new DraftManager.DraftDeleteCallBack() {
             @Override
             public void onDraftDeleted() {
-                Map<String, Object> argumentsReturn = new TreeMap<>();
-                mVideoDraftChannel.invokeMethod("DraftListUpdate", argumentsReturn);
+                if (mVideoDraftChannel != null) {
+                    Map<String, Object> argumentsReturn = new TreeMap<>();
+                    mVideoDraftChannel.invokeMethod("DraftListUpdate", argumentsReturn);
+                } else {
+                    Log.e("VideoEditPlugin", "mVideoDraftChannel is null while invoking DraftListUpdate.");
+                }
             }
         });
+    } catch (Exception e) {
+        // Log exceptions during initialization
+        Log.e("VideoEditPlugin", "Error during NvModuleManager initialization: " + e.getMessage(), e);
     }
+}
+
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
