@@ -31,6 +31,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    if (@available(iOS 13.0, *)) {
+        self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+    }
+
     _moduleManager = [NvModuleManager sharedInstance];
     
     _moduleManager.config.compileConfig.autoSaveVideo = false;
@@ -60,16 +65,17 @@
     attributes[NSForegroundColorAttributeName] = [UIColor whiteColor];
     attributes[NSFontAttributeName] = [UIFont systemFontOfSize:16];
     self.navigationController.navigationBar.titleTextAttributes = attributes;
-
-    self.navigationItem.title = NSLocalizedString(@"Publish", @"发布");
     
-    UIImage *image = [UIImage imageNamed:@"navigation_whiteback"];
+    // self.navigationItem.title = NSLocalizedString(@"Publish", @"发布");
+    
+    UIImage *image = [UIImage imageNamed:@"arrow-left"];
     UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     [backButton setImage:image forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(leftBtClicked) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
     self.navigationItem.leftBarButtonItem = backItem;
-    
+    self.textView.layer.cornerRadius = 5;
+ 
     
     self.imageView.image = [UIImage imageWithContentsOfFile:self.imagePath];
     self.imageView.clipsToBounds = YES;
@@ -88,23 +94,23 @@
     UILabel* placeHolderLabel = [[UILabel alloc]init];
     placeHolderLabel.text = NSLocalizedString(@  "Type your video caption here. You can also add hashtags (e.g., #tag1 #tag2) and mention people (@username).", @"");
     placeHolderLabel.numberOfLines = 0;
-    placeHolderLabel.textColor = [UIColor lightGrayColor];
+    placeHolderLabel.textColor = [UIColor blackColor];
     [placeHolderLabel sizeToFit];
     [self.textView addSubview:placeHolderLabel];
     placeHolderLabel.font = [UIFont systemFontOfSize:15.f];
     [self.textView setValue:placeHolderLabel forKey:@"_placeholderLabel"];
     self.textView.text = self.draftInfo;
     
-    [self.compileBt setTitle:NSLocalizedString(@"Save Video", @"") forState:(UIControlStateNormal)];
+    [self.compileBt setTitle:NSLocalizedString(@"Share ", @"") forState:(UIControlStateNormal)];
     [self.saveBt setTitle:NSLocalizedString(@"Save Draft", @"") forState:(UIControlStateNormal)];
     [self.saveCoverBt setTitle:NSLocalizedString(@"Save Cover", @"") forState:(UIControlStateNormal)];
     
-    self.compileBt.layer.cornerRadius = 10;
-    self.saveBt.layer.cornerRadius = 10;
-    self.saveCoverBt.layer.cornerRadius = 10;
+    self.compileBt.layer.cornerRadius = 20;
+    self.saveBt.layer.cornerRadius = 20;
+    self.saveCoverBt.layer.cornerRadius = 20;
     
-    self.saveBt.backgroundColor = [[UIColor alloc]initWithRed:47/255.0 green:47/255.0 blue:47/255.0 alpha:1];
-    self.compileBt.backgroundColor = [[UIColor alloc]initWithRed:252/255.0 green:62/255.0 blue:90/255.0 alpha:1];
+    self.saveBt.backgroundColor = [[UIColor alloc]initWithRed:242/255.0 green:244.0/255.0 blue:247.0/255.0 alpha:1];
+    self.compileBt.backgroundColor = [[UIColor alloc]initWithRed:253/255.0 green:212.0/255.0 blue:0.0/255.0 alpha:1];
     self.saveCoverBt.backgroundColor = [[UIColor alloc]initWithRed:252/255.0 green:62/255.0 blue:90/255.0 alpha:1];
     
     self.imageView.layer.cornerRadius = 8;
